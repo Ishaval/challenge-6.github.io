@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h2>Weather Dashboard</h2></a>
+        </div>
+      </nav>
+    </header>
+    <div class="top-banner">
+      <div class="text-center container">
+        <h3 class="heading">Search You City</h3>
+        <form>
+          <input type="text" placeholder="Search for a city" autofocus />
+          <button type="submit">SUBMIT</button>
+          <span class="msg"></span>
+        </form>
+      </div>
+      <section class="History">
+        <ul class="input-list"></ul>
+      </section>
+    </div>
+    <section class="ajax-section">
+      <div class="container">
+        <ul class="forecast-list"></ul>
+        <ul class="cities"></ul>
+      </div>
+    </section>
+
+    <footer>
+      <small>Made with effort BY Julian </small>
+    </footer>
+  </body>
+  <script src="./assets/js/script.js"></script>
+</html>
